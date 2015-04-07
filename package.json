@@ -1,12 +1,12 @@
 {
-  "name": "Tour App",
-  "description": "Tour",
+  "name": "VisitBGM",
+  "description": "VisitBGM",
   "version": "0.0.1",
   "private": false,
   "scripts": {
     "start": "node app",
     "tests": "make test",
-    "api": "nodemon --watch routes --watch models app.js",
+    "all": "nodemon --watch routes --watch models app.js"
   },
   "dependencies": {
     "backbone": "~1.1.2",
