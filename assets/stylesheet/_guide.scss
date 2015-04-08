@@ -1,0 +1,65 @@
+.content > section .main {
+
+	.guide, .terms, .privacy {
+
+		max-width: 640px;
+
+		h4, h5 {
+			font-family: $oswald_stack;
+		}
+
+		h4 {
+			font-size: 2.25em;
+			font-weight: 400;
+			color: $blue;
+			text-transform: uppercase;
+			margin-top: 2.75em;
+			// margin-bottom: 0.75em;
+		}
+
+		h5 {
+			font-size: 1.5em;
+			font-weight: 400;
+			font-variant: small-caps;
+			text-transform: lowercase;
+			margin-top: 2.5em;
+			margin-bottom: 0.75em;
+		}
+
+		p {
+			max-width: inherit;
+			font-size: 1em;
+			font-weight: 400;
+		}
+
+		a {
+			text-decoration: none;
+			color: $blue;
+			border-bottom: 1px solid transparent;
+
+			&:hover {
+				border-bottom-color: $usiu_yellow;
+			}
+		}
+		
+		ul {
+
+			li {
+				display: list-item;
+
+				font-size: 0.9em;
+				line-height: 1.8;
+				list-style: disc;
+				
+				margin-top: 0;
+				margin-left: 2em;
+				margin-bottom: 0.25em;
+
+				padding-left: 0.25em;
+				padding-bottom: 0;
+
+			}
+		}
+	}
+
+}

@@ -1,4 +1,4 @@
-#### Visiting Bungoma
+#### Visit Bungoma
 
 Visiting Bungoma Tourism App
 

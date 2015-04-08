@@ -26,6 +26,10 @@ module.exports = function(app, db) {
 
     // Static pages routes
     app.get('/', require('./routes/index'));
+    app.get('/about', require('./routes/index'));
+    app.get('/contact', require('./routes/index'));
+    app.get('/register', require('./routes/index'));
+
 
     // 404 error handler
     app.get('*', function(req, res) {
