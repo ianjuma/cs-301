@@ -22,7 +22,7 @@ module.exports = function(app, express) {
         skip: function (req, res) { return res.statusCode < 400 } }));
 
 
-    app.use(favicon(__dirname + '/assets/assets/images/favicon.ico'));
+    app.use(favicon(__dirname + '/assets/images/favicon.ico'));
     app.use(logger('dev'));
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: false }));

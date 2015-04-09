@@ -20,21 +20,26 @@ module.exports = router.get('/terms', function(req, res) {
 	res.render('terms', { title: "Terms" });
 });
 
+
 module.exports = router.get('/privacy', function(req, res) {
 	res.render('privacy', { title: "Privacy" });
 });
+
 
 module.exports = router.get('/destinations', function(req, res) {
 	res.render('destinations', { title: "Destinations" });
 });
 
+
 module.exports = router.get('/register', function(req, res) {
 	res.render('register', { title: "Register" });
 });
 
+
 module.exports = router.get('/travel', function(req, res) {
 	res.render('travel', { title: "Travel" });
 });
+
 
 module.exports = router.get('/thankyou', function(req, res) {
 	res.render('thankyou', { title: "Thanks" });
