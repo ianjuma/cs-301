@@ -29,6 +29,11 @@ module.exports = function(app, db) {
     app.get('/about', require('./routes/index'));
     app.get('/contact', require('./routes/index'));
     app.get('/register', require('./routes/index'));
+    app.get('/privacy', require('./routes/index'));
+    app.get('/terms', require('./routes/index'));
+    app.get('/travel', require('./routes/index'));
+    app.get('/thankyou', require('./routes/index'));
+    app.get('/destinations', require('./routes/index'));
 
 
     // 404 error handler
