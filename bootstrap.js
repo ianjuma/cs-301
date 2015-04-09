@@ -16,7 +16,7 @@ module.exports = function(app, express) {
 
 
     // setup the logger and only log errors
-    var accessLogStream = fs.createWriteStream('visiting_bgm.log', 
+    var accessLogStream = fs.createWriteStream('visiting.log', 
     	{ flags: 'a' });
     app.use(logger('combined', { stream: accessLogStream,
         skip: function (req, res) { return res.statusCode < 400 } }));
